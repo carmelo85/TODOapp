@@ -1,0 +1,169 @@
+@font-face {
+    font-family:"alexbrush";
+    src: url('../fonts/alexbrush-regular-webfont.ttf') format('truetype');
+}
+
+
+
+#main-container{
+    width: 420px;
+    margin: 0 auto;
+}
+
+h1{
+    font-family: "alexbrush", helvetica, arial, sans-serif;
+    font-size: 60px;
+    margin: 40px 0 40px 0;
+    text-align: center;
+    color: slategrey;
+}
+
+#left-list{
+    width: 420px;
+    float: left;
+    display:block;
+    padding: 0;
+    margin-top: 0px;
+
+
+}
+
+#edButton, #delButton{
+    margin-top:1px;
+    height: 22px;
+    float:left;
+}
+
+#todoListItems{
+    list-style-type: none;
+    padding: 0;
+    border-bottom: 1px #ccc solid;
+    max-width:500px;
+    margin-top: 0;
+}
+
+#todoListItems li{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding:2px 0px;
+    background-color:;
+    color:#666666;
+    width: 500px;
+}
+
+#todoInput{
+    height: 32px;
+    width: 300px;
+    float:left;
+    font-size: 20px;
+    color: #777;
+    border: none;
+    background-color: #eee;
+    padding: 0 10px;
+}
+
+#inputComponents{
+    height:28px;
+}
+
+
+#todoButton{
+     float:left;
+     color: #a3a3a3;
+     width:100px;
+     height: 32px;
+     font-size: 18px;
+     background-color:#e0e0e0;
+     border: none;
+     margin: 0;
+    padding: 0;
+}
+
+#todoButton:hover{
+    background-color: yellowgreen;
+    color: #a3a3a3;
+    transition: all .5s ease;
+    color:darkgreen;
+
+}
+
+#delButton, #edButton{
+    float:left;
+    color: white;
+    width:100px;
+    height: 30px;
+    font-size: 15px;
+    background-color:lightslategrey;
+    border: none;
+    margin-left: 5px;
+}
+
+#delButton{
+    width: 115px;
+    margin-left: 0;
+
+
+}
+#delButton:hover{
+    transition: all .5s ease;
+    background-color: darkred;
+    color: #ee0000;
+}
+.editedItem{
+
+    margin-bottom: 1px;
+    height:24px;
+    width: 309px;
+    padding-top:1px;
+
+}
+
+.doneButton{
+
+    color: white;
+    width:100px;
+    height: 25px;
+    padding-top: 1px;
+    font-size: 10px;
+    background-color:lightslategrey;
+    border: none;
+    margin-left: 5px;
+    margin-top: 0;
+    vertical-align:middle;
+}
+
+#edButton:hover{
+    transition: all .5s ease;
+    background-color: #ffcc33;
+    color:#dd7711;
+}
+
+#control-components{
+height: 10px;
+}
+
+input[type="checkbox"]{
+    margin: 10px 10px 10px 0;
+    background-color: #ccc;
+
+}
+
+::-webkit-input-placeholder{
+    font-size: 15px;
+    height: 25px;
+    line-height: 25px;
+    margin-left: 30px;
+}
+  :-moz-placeholder{
+      font-size: 15px;
+      height: 25px;
+      line-height: 25px;
+      margin-left: 30px;
+
+  }
+  :-ms-input-placeholder{
+      font-size: 15px;
+      height: 25px;
+      line-height: 25px;
+      margin-left: 30px;
+
+  }
