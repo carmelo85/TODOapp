@@ -1,16 +1,47 @@
 <!DOCTYPE html>
-<html>
 <head lang="en">
     <meta charset="UTF-8">
     <title>TODO App</title>
-    <link rel="stylesheet" href="css/cssb/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/screen.css"/>
 </head>
-<body>
-<button onclick="alertmsg()">Click Me!</button>
 
-    <script src="js/jsb/bootstrap.min.js"> </script>
-    <script src="js/jquery-2.1.3.min.js"></script>
-    <script src="js/scripts.js"></script>
 
+
+
+
+
+
+<div id="main-container">
+            <h1>My <em>toDo</em> List</h1>
+            <!---input field--->
+            <div id="header">
+
+                    <form id="inputComponents" name="inputForm">
+                        <input id="todoInput" type="text" name="inputField" onkeydown="keyCode(event)" placeholder="Enter an Item here..." />
+                        <input id="todoButton" type="button" value="Add Item" />
+                    </form>
+
+            </div>
+
+            <!--- list field--->
+            <div id="left-list">
+
+                <ul id="todoListItems">
+                </ul>
+                <br />
+                <form id="control-components">
+                    <input id="delButton" type="button"value="Remove Items">
+                    <input id="edButton" type="button" value="Edit Items" />
+                </form>
+
+            </div>
+
+</div><!---End Main Container--->
+
+
+
+<script src="js/jquery-2.1.3.min.js"></script>
+<script src="js/scripts.js"></script>
+<script src="js/jsb/bootstrap.min.js"> </script>
 </body>
 </html>
